@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19D079D7-FC57-C380-E9D1-1421C7AFFDE1" name="FLIGHTS DETAILS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>59DB5FCD-384A-45B6-1C26-3231309FAE88</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FLIGHT ID" id="D34B3D63-C202-5A26-9DB7-2B0D7125BA74">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>5058AF41-396E-8A7A-8749-90A4DAF4C995</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSBD AIRPORT ID1" id="E26253DA-431E-C91E-863E-A12EC7A044BF">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>ED52D757-742E-B59A-47DD-BD890B8368C9</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<referedAttribute>7017C195-7C96-2693-55AC-E8CCC2E40C69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSBD AIRPORT ID" id="2CCA706D-831B-F676-0B2E-8483834F50C4">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>82005459-EF3B-7087-28F5-E237F46192CB</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<referedAttribute>7017C195-7C96-2693-55AC-E8CCC2E40C69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRICE" id="DFDDEBAE-B4A5-819A-C015-4CEE8B669AD5">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>853BEE99-E633-E72F-F5C7-21A80EF9900B</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<constraintName>price_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="price &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEAT CAPACITY" id="2E67034A-7628-D818-CC46-FE6BC37A282A">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>84E4E7B2-954F-DAEB-1ABC-0A56A56B46FA</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<constraintName>seat_capacity_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="seat_capacity &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AVAILABLE SEATS" id="D5659C83-6BD8-F678-AB6F-5E7ED980F07D">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>41A57680-BF6A-B6C5-8DB5-E557F2989FCD</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<constraintName>available_seats_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="available_seats &lt;= seat_capacity"/>
+</checkConstraint>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSBD FLIGHT ID" id="695C2D85-34F9-630F-2289-281DE85CD9C8">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:36:48 UTC</createdTime>
+<generatorID>3FA61481-D0EE-20F1-FE6E-43712A4123D6</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<referedAttribute>463087FD-D206-8FBC-FD35-271D61B7402D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

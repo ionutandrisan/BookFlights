@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D356D456-BF11-4236-E55A-FDFBDE653CF0" name="PSBD_CUSTOMERS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:42:38 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="835C1A79-F5DE-9088-6EF6-F187F2E94D83">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="EC9D9786-4DF3-9863-D509-22D0E8909CEE">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="54F822B8-E5AA-FCBD-ED60-33CE9517F500">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NATIONALITY" id="5E1A2BEB-1849-C59A-C4B8-F4A02D3853AA">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CODE" id="E2FC2709-B05D-8A3C-AD42-37585348B5FB">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEPHONE_NUMBER" id="D79FFA69-E3CF-4DE9-352A-D4CEC22F0D0F">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<constraintName>customer_telephone_number_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(phonenumber, &apos;[0-9%]{13}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="1FD39EFB-7BDB-477D-A75E-01959A8EF254">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="674B6731-8335-9AB1-7AAB-7E3AA2B0AAE6">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<constraintName>email_customers_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3694843F-47AE-090F-BC3E-21E451EAA949" name="CUSTOMERS_PK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="835C1A79-F5DE-9088-6EF6-F187F2E94D83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

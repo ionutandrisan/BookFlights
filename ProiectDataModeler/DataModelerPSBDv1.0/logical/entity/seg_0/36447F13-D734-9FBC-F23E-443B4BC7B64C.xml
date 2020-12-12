@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36447F13-D734-9FBC-F23E-443B4BC7B64C" name="TICKETS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>C8207C40-5CA8-D7DA-B69E-240DE1DD06D6</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PSBD TICKET ID" id="98570AE2-F47D-99DB-A8E9-534EF6E7EDFC">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>3DB2A76A-0BB9-6110-939A-E05B5A749C75</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMERS CUSTOMER ID" id="357DFB4C-D063-D14E-C71A-B038D0CF98FF">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>1E2BEAD3-4754-9989-15F8-460A89465707</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<referedAttribute>463087FD-D206-8FBC-FD35-271D61B7402D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL PRICE" id="A02BCD8B-F472-8E60-BBD0-C62062C454BC">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>420C9BAA-36BB-E430-E94E-FF09070C316C</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<constraintName>total_price_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="total_price &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSBD FLIGHTS FLIGHT ID" id="8B66F994-5D01-DDBB-BDCC-B4C5F30C6561">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-28 14:52:22 UTC</createdTime>
+<generatorID>1E2BEAD3-4754-9989-15F8-460A89465707</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<referedAttribute>463087FD-D206-8FBC-FD35-271D61B7402D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSBD CUSTOMER ID" id="51BFC855-D43D-831F-1EEE-3FA3B8E44405">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-29 12:48:54 UTC</createdTime>
+<generatorID>A835850B-C0BF-2431-28D3-11870DA859E1</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<referedAttribute>98DC5F2D-A3E4-54C6-ED6F-9310A1820159</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADCC6B24-15EA-3425-7EFC-7B19D00AC666" name="TICKETS PK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>484DF087-C157-10C9-FA2B-B2A2A667DC6C</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>98570AE2-F47D-99DB-A8E9-534EF6E7EDFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

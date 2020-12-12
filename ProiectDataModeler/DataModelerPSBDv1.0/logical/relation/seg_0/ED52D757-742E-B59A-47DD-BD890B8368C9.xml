@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FLIGHTS_DETAILS_AIRPORTS_FK" directorySegmentName="seg_0" id="ED52D757-742E-B59A-47DD-BD890B8368C9">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:44:19 UTC</createdTime>
+<generatorID>E904E2C9-366C-D66E-17C2-73D3F115C755</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<sourcePk>AC3A85D7-03A3-0BE0-5406-CA54078C0FF4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75D366EE-0B2E-218A-60A7-C842A06C9910</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19D079D7-FC57-C380-E9D1-1421C7AFFDE1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

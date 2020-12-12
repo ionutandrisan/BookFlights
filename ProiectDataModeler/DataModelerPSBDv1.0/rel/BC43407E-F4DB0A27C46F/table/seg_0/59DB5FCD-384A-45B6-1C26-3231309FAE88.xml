@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59DB5FCD-384A-45B6-1C26-3231309FAE88" name="PSBD_FLIGHTS_DETAILS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:37:22 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FLIGHT_ID" id="4754D94B-820D-ACBC-D07F-9B7F523DCFB8">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:35:02 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3722501-1404-C3BC-D5D1-6228830E4000" referredColumn="2BE54EC8-E483-5918-7ACA-7F91895E120D"/>
+</associations>
+</Column>
+<Column name="DEPARTURE_AIRPORT_ID" id="8829D26E-C214-7C2E-D02D-516E4245F275">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:42:21 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E904E2C9-366C-D66E-17C2-73D3F115C755" referredColumn="4C5648EC-219D-A139-7998-6867F361C4C5"/>
+</associations>
+</Column>
+<Column name="ARRIVAL_AIRPORT_ID" id="55F5EC21-F4E0-72DB-FA44-30A3CFF339B2">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:42:21 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D459D28-D81D-8E86-E0F2-F0775C3A207C" referredColumn="4C5648EC-219D-A139-7998-6867F361C4C5"/>
+</associations>
+</Column>
+<Column name="PRICE" id="853BEE99-E633-E72F-F5C7-21A80EF9900B">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:42:21 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<constraintName>price_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="price &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEAT_CAPACITY" id="84E4E7B2-954F-DAEB-1ABC-0A56A56B46FA">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:42:21 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<constraintName>seat_capacity_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="seat_capacity &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<generateConstraintInDDL>NO</generateConstraintInDDL>
+</Column>
+<Column name="AVAILABLE_SEATS" id="41A57680-BF6A-B6C5-8DB5-E557F2989FCD">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:42:21 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<constraintName>available_seats_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="available_seats &lt;= seat_capacity"/>
+</checkConstraint>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60835D64-35B3-317B-D14C-8B04C886A815" name="FLIGHTS_DETAILS__IDX">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:44:30 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3FA61481-D0EE-20F1-FE6E-43712A4123D6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4754D94B-820D-ACBC-D07F-9B7F523DCFB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="934E9CED-8AEC-64A9-9D3B-2E983E57E7CA" name="FLIGHTS_DETAILS_PSBD_FLIGHTS_FK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:35:21 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4754D94B-820D-ACBC-D07F-9B7F523DCFB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFE2D77B-1289-FAEA-745E-2BEB32CA90A7" name="FLIGHTS_DETAILS_AIRPORTS_FK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:37:46 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8829D26E-C214-7C2E-D02D-516E4245F275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C746C9BF-AD1D-D621-ACEF-61392AEF127F" name="FLIGHTS_DETAILS_AIRPORTS_FKv2">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:38:20 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55F5EC21-F4E0-72DB-FA44-30A3CFF339B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

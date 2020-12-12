@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75B7BDAE-0BEC-2551-9EB5-B450ED230328" name="PSBD FLIGHTS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>6957FDF9-B19C-7AEE-E0B7-9DBE740B588F</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FLIGHT ID" id="463087FD-D206-8FBC-FD35-271D61B7402D">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>2BE54EC8-E483-5918-7ACA-7F91895E120D</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FROM LOCATION" id="ECA06472-CCE5-F886-DD47-03B3C797D421">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>A3065C7F-4617-9D83-6B2D-204822AD64A5</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TO LOCATION" id="9036D602-D247-F6F7-E101-04E6FF3C2573">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>0564BAF0-14C3-3430-A68E-19DDAAD9A49D</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPARTURE TIME" id="DEDE291B-A25B-2029-4174-04A8E1A6A384">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>037E63F2-0A3F-76AA-7BA9-178CC784E2AD</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ARRIVAL TIME" id="8DF49A65-1F16-CFD0-4DD8-6188CF8B6AC5">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>D0D5BE79-C3E6-BEBE-F154-BC660F0A1193</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<constraintName>arrival_time_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="ARRIVAL_TIME &gt; DEPARTURE_TIME"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20A89D49-F7CE-C914-67EC-36C4C6F3403F" name="PSBD FLIGHTS PK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>02363646-2450-2301-0E6B-02986B114060</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>463087FD-D206-8FBC-FD35-271D61B7402D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

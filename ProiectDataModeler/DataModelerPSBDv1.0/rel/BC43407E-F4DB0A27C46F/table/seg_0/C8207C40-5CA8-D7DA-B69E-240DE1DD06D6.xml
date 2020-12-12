@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8207C40-5CA8-D7DA-B69E-240DE1DD06D6" name="PSBD_TICKETS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:48:53 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TICKET_ID" id="3DB2A76A-0BB9-6110-939A-E05B5A749C75">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:51:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ID" id="56185160-ED0B-40B8-CEA4-3F1EF687B90F">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-29 12:48:57 UTC</createdTime>
+<generatorID>51BFC855-D43D-831F-1EEE-3FA3B8E44405</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D0C346A-EAB2-FAF3-3EFA-1D3F46CE8725" referredColumn="835C1A79-F5DE-9088-6EF6-F187F2E94D83"/>
+</associations>
+</Column>
+<Column name="FLIGHT_ID" id="4790B0C9-B9CE-4FBF-A7C7-7289D9E7349D">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:48:16 UTC</createdTime>
+<generatorID>157D4C0E-E742-68B5-BD80-BBE89AD08F76</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6642FD67-0BEF-A406-5535-99017623BA8A" referredColumn="2BE54EC8-E483-5918-7ACA-7F91895E120D"/>
+</associations>
+</Column>
+<Column name="TOTAL_PRICE" id="420C9BAA-36BB-E430-E94E-FF09070C316C">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:51:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<constraintName>total_price_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="total_price &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="484DF087-C157-10C9-FA2B-B2A2A667DC6C" name="TICKETS_PK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:51:36 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DB2A76A-0BB9-6110-939A-E05B5A749C75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4130EAB7-D843-387D-7E94-1765373726A8" name="TICKETS_PSBD_FLIGHTS_FK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:42:23 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4790B0C9-B9CE-4FBF-A7C7-7289D9E7349D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D7E6744-671E-67AC-CFBA-A2A71014B3BC" name="TICKETS_CUSTOMERS_FK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-29 12:48:57 UTC</createdTime>
+<generatorID>A835850B-C0BF-2431-28D3-11870DA859E1</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56185160-ED0B-40B8-CEA4-3F1EF687B90F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

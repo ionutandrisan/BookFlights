@@ -1,0 +1,14 @@
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\bin\Debug\ProiectBD.exe.config
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\bin\Debug\ProiectBD.exe
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\bin\Debug\ProiectBD.pdb
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectPSBD.csprojAssemblyReference.cache
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.PaginaPrincipala.resources
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.Properties.Resources.resources
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.RezervareBilet.resources
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectPSBD.csproj.GenerateResource.cache
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectPSBD.csproj.CoreCompileInputs.cache
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectPSBD.csproj.CopyComplete
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.exe
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.pdb
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.ModAdmin.resources

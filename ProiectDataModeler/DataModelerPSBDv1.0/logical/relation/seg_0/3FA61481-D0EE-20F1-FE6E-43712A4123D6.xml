@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FLIGHTS DETAILS PSBD FLIGHTS FK" directorySegmentName="seg_0" id="3FA61481-D0EE-20F1-FE6E-43712A4123D6">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:36:48 UTC</createdTime>
+<generatorID>E3722501-1404-C3BC-D5D1-6228830E4000</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<sourcePk>20A89D49-F7CE-C914-67EC-36C4C6F3403F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75B7BDAE-0BEC-2551-9EB5-B450ED230328</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>19D079D7-FC57-C380-E9D1-1421C7AFFDE1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

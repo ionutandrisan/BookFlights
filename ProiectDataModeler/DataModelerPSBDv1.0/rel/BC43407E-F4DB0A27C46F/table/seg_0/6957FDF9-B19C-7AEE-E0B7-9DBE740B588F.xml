@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6957FDF9-B19C-7AEE-E0B7-9DBE740B588F" name="PSBD_FLIGHTS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:28:27 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FLIGHT_ID" id="2BE54EC8-E483-5918-7ACA-7F91895E120D">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:30:47 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FROM_LOCATION" id="A3065C7F-4617-9D83-6B2D-204822AD64A5">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:37:06 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TO_LOCATION" id="0564BAF0-14C3-3430-A68E-19DDAAD9A49D">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:37:06 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTURE_TIME" id="037E63F2-0A3F-76AA-7BA9-178CC784E2AD">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:37:06 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARRIVAL_TIME" id="D0D5BE79-C3E6-BEBE-F154-BC660F0A1193">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:37:06 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<constraintName>arrival_time_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="ARRIVAL_TIME &gt; DEPARTURE_TIME"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02363646-2450-2301-0E6B-02986B114060" name="PSBD_FLIGHTS_PK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:37:06 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE54EC8-E483-5918-7ACA-7F91895E120D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

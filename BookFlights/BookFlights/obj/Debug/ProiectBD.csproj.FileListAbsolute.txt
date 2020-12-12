@@ -1,0 +1,55 @@
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\bin\Debug\ProiectBD.exe.config
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\bin\Debug\ProiectBD.exe
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\bin\Debug\ProiectBD.pdb
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csprojAssemblyReference.cache
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.PaginaPrincipala.resources
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Properties.Resources.resources
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.GenerateResource.cache
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.CoreCompileInputs.cache
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.exe
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.pdb
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.CopyComplete
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Pagina1.resources
+C:\PC\Facultate\BD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Pagina2.resources
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\bin\Debug\ProiectBD.exe.config
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\bin\Debug\ProiectBD.exe
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\bin\Debug\ProiectBD.pdb
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csprojAssemblyReference.cache
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.PaginaPrincipala.resources
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Pagina1.resources
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Pagina2.resources
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Properties.Resources.resources
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.GenerateResource.cache
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.CoreCompileInputs.cache
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.CopyComplete
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.exe
+C:\PC\Facultate\BD\Andrisan Ionut-Cosmin 1309A tema casa\ProiectBD\ProiectBD\obj\Debug\ProiectBD.pdb
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\bin\Debug\ProiectBD.exe.config
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\bin\Debug\ProiectBD.exe
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\bin\Debug\ProiectBD.pdb
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csprojAssemblyReference.cache
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.PaginaPrincipala.resources
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Pagina1.resources
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Pagina2.resources
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.Properties.Resources.resources
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.GenerateResource.cache
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.CoreCompileInputs.cache
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.csproj.CopyComplete
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.exe
+C:\PC\Facultate\Am_3_sem_2\BD\AndrisanProiectBD\ProiectBD\ProiectBD\obj\Debug\ProiectBD.pdb
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\bin\Debug\ProiectBD.exe.config
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\bin\Debug\ProiectBD.exe
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\bin\Debug\ProiectBD.pdb
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.csprojAssemblyReference.cache
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.PaginaPrincipala.resources
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.Properties.Resources.resources
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.csproj.GenerateResource.cache
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.csproj.CoreCompileInputs.cache
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.csproj.CopyComplete
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.exe
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.pdb
+C:\PC\Facultate\An_4_sem_1\PSBD\AndrisanIonut_proiectPSBD\ProiectPSBD\ProiectBD\obj\Debug\ProiectBD.RezervareBilet.resources

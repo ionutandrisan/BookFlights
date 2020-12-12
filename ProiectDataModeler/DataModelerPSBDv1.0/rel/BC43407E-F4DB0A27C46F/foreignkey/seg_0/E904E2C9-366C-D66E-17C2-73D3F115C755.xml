@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E904E2C9-366C-D66E-17C2-73D3F115C755" containerWithKeyObject="59DB5FCD-384A-45B6-1C26-3231309FAE88" localFKIndex="AFE2D77B-1289-FAEA-745E-2BEB32CA90A7" name="FLIGHTS_DETAILS_AIRPORTS_FK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 15:37:46 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<referredTableLongName>AIRPORTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EB13072-3573-13FE-F65D-210EEDA10B73</referredTableID>
+<keyObject>DE356601-668E-DBEA-1E88-54A45CED38C6</keyObject>
+<referredKeyID>DE356601-668E-DBEA-1E88-54A45CED38C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AIRPORT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EB13072-3573-13FE-F65D-210EEDA10B73" name="PSBD_AIRPORTS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:54:39 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AIRPORT_ID" id="4C5648EC-219D-A139-7998-6867F361C4C5">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:55:53 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AIRPORT_NAME" id="601801C7-B690-8DA6-6965-A479716EE6B2">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:55:53 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="2A7FA2E8-CA6B-F590-E616-9450714844B8">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:55:53 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="B8F89D49-07F3-639E-4767-37E3C361C111">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:55:53 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="E9340B48-8918-5339-0125-462BDE3B2FAD">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:55:53 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTACT" id="29D76C6A-F426-ADEC-48A8-565CB47D092E">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-28 14:55:33 UTC</createdTime>
+<generatorID>5B8D2EF4-9B7C-F62A-2B84-769705A2FDE1</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<constraintName>airport_phone_number_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(phonenumber, &apos;[0-9%]{13}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE356601-668E-DBEA-1E88-54A45CED38C6" name="AIRPORTS_PK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 09:55:53 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C5648EC-219D-A139-7998-6867F361C4C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

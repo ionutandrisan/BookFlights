@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75D366EE-0B2E-218A-60A7-C842A06C9910" name="AIRPORTS">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>7EB13072-3573-13FE-F65D-210EEDA10B73</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PSBD AIRPORT ID" id="7017C195-7C96-2693-55AC-E8CCC2E40C69">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>4C5648EC-219D-A139-7998-6867F361C4C5</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AIRPORT NAME" id="56FE53E5-0DEC-4C86-2CE0-6C2164D83F04">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>601801C7-B690-8DA6-6965-A479716EE6B2</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS" id="27CD65F6-5A1C-BB02-2803-68AD432CB3FB">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>2A7FA2E8-CA6B-F590-E616-9450714844B8</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="AD308D44-B3C2-7DE6-F85C-D0BFC14C5DF5">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>B8F89D49-07F3-639E-4767-37E3C361C111</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY" id="AAA8FACB-5C1F-3904-1F9F-735B150C29ED">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>E9340B48-8918-5339-0125-462BDE3B2FAD</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTACT" id="5B8D2EF4-9B7C-F62A-2B84-769705A2FDE1">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-28 14:52:49 UTC</createdTime>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="true"/>
+</engineerTo>
+<constraintName>airport_phone_number_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(phonenumber, &apos;[0-9%]{13}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC3A85D7-03A3-0BE0-5406-CA54078C0FF4" name="AIRPORTS PK">
+<createdBy>Andrisan</createdBy>
+<createdTime>2019-11-27 10:01:19 UTC</createdTime>
+<generatorID>DE356601-668E-DBEA-1E88-54A45CED38C6</generatorID>
+<ownerDesignName>DataModelerPSBDv1.0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC43407E-8D23-7CDC-D63F-F4DB0A27C46F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7017C195-7C96-2693-55AC-E8CCC2E40C69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
