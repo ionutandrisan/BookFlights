@@ -25,6 +25,8 @@ Tabele: psbd_flights, psbd_flights_details, psbd_airports, psbd_customers, psbd_
 
 **Diagrame ER:**
 
+![](images/ERdiagram.PNG)
+
 
 #### 1.3. Tehnologii folosite
 
